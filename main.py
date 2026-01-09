@@ -35,7 +35,7 @@ if st.button("Predict"):
     # Convert input to array
     input_data = np.array([[age, bgl, diastolic, systolic, heart_rate, body_temp, spo2]])
     help(st.button)
-    # Scale input
+    # Scale 
     input_scaled = scaler.transform(input_data)
     
     # Predict probability
